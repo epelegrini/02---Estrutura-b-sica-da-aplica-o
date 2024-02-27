@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     texto = """
-            <h1>Avaliação contínua: Aula 030</h1>
+            <h1>Avaliação contínua: Aula 03</h1>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/aluno/Enzo da Silva Pelegrini/PT3022277/IFSP">Identificação</a></li>
