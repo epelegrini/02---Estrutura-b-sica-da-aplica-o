@@ -8,7 +8,7 @@ def hello_world():
             <h1>Avaliação contínua: Aula 03</h1>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/aluno/Enzo da Silva Pelegrini/PT3022277/IFSP">Identificação</a></li>
+                <li><a href="/aluno/Enzo da Silva Pelegrini/PT3022277/IFSP - Pirituba">Identificação</a></li>
                 <li><a href="/contextorequisicao">Contexto da requisição</a></li>
             </ul>
         """
@@ -17,7 +17,7 @@ def hello_world():
 @app.route('/aluno/<nome>/<prontuario>/<inst>')
 def aluno(nome, prontuario, inst):
     texto = """
-            <h1>Avaliação contínua: Aula 030</h1>
+            <h1>Avaliação contínua: Aula 03</h1>
             <h2>Aluno: """+ '{}'.format(nome) +"""</h2>
             <h2>Prontuário: """+ '{}'.format(prontuario) +"""</h2>
             <h2>Instituição: """+ '{}'.format(inst) +"""</h2>
